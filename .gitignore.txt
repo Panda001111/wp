@@ -1,0 +1,27 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-content/
+!wp-content/themes/
+!wp-content/plugins/
+!wp-content/mu-plugins/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.idea
+.vscode
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore uploads
+wp-content/uploads/
+
+# Ignore config files
+wp-config.php
+*.sql
+*.tar.gz
